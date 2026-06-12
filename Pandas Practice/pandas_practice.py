@@ -13,10 +13,18 @@ df = pd.DataFrame(data)
 
 df2 = [1,2,3]
 
-print(df2)
+# print(df2)
 
 df3 = pd.Series(df2, index = ['a','b','c'])
 
-print(df3)
+# print(df3)
 
-print(df3['b'])
+# print(df3['b'])
+
+# print(df.loc[[0,1,3]])
+
+w3_data = pd.read_csv("./Data/data.csv")
+
+print(w3_data)
+
+print(pd.options.display.max_rows)
